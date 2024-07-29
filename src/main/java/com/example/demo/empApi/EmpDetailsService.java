@@ -48,9 +48,9 @@ public class EmpDetailsService {
             }
         }
 
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
+        // for (int i = 0; i < list.size(); i++) {
+        //     System.out.println(list.get(i));
+        // }
 
         if (list.size() == 0) {
             System.out.println("no project is assigned to emp");
@@ -58,7 +58,7 @@ public class EmpDetailsService {
         }
 
         ans.get(0).put(pid, list);
-        System.out.println(list);
+        // System.out.println(list);
         return ans;
     }
 }
